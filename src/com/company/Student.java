@@ -42,6 +42,10 @@ public class Student {
         return username;
     }
 
+    public void setPassword(final String password) {
+        this.password = password;
+    }
+
     public boolean isAuth(String password) {
         return this.password.equals(password);
     }
